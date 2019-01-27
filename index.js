@@ -53,7 +53,7 @@ fs.readdir("./commands/", (err, files) => {
 });
 
 bot.on(`message`, async msg => {
-    if(!msg.channel.guild || msg.author.bot) return;
+    if(!msg.guild || msg.author.bot) return;
     if(msg.content.indexOf(prefix) !== 0) return;
 
     let args = msg.content.slice(prefix.length).trim().split(/ +/g);
