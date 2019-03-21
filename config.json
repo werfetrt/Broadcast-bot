@@ -1,9 +1,9 @@
 {
     "discord": {
-        "owner_id":         "468693268759183371",
+        "owner_id":         "558220897547452418",
         "version":          "1.0"
     },
     "local": {
-        "prefix":           "."
+        "prefix":           "D"
     }
 }
